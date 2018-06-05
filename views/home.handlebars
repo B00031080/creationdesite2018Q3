@@ -1,0 +1,7 @@
+<h1>Il est exactement {{maintenant}}</h1>
+<ol>
+    {{#each students}}
+        <li class="{{sex}}">{{name}} {{#if honors}} +++ {{/if}} {{#unless honors}} --- {{/unless}}</li>
+    {{/each}}
+</ol>
+
